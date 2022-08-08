@@ -1,4 +1,4 @@
-# HARMONY - DATING APP FOR SPECIALLY ABLED PEOPLE
+# HARMONY - SOCIAL NETWORKING APP FOR SPECIALLY ABLED PEOPLE
 
 This app is  made using React Native and Expo. 
 Tailwind CSS is used for styling. 
