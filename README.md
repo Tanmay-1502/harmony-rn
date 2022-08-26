@@ -7,14 +7,20 @@ Other features- Various hooks like useRef, useMemo, useNavigation etc are used f
 <div >
 <p align="center">
   <text>LOGIN SCREEN </text>
-  <img src="./login.jpg" width="200" height="400" title="LOGIN SCREEN">
+  <img src="./loginscreen.jpg" width="200" height="350" title="LOGIN SCREEN">
     <text>HOME SCREEN </text>
 
-  <img src="./home.jpg" width="200" height="400" title="HOME SCREEN">
+  <img src="./homescreen.jpg" width="200" height="350" title="HOME SCREEN">
     </br>
     <text>CHAT SCREEN </text>
-  <img src="./chat.jpg" width="200" height="400" title="CHAT SCREEN">
+  <img src="./chatscreen.jpg" width="200" height="350" title="CHAT SCREEN">
     <text>PLACES SCREEN </text>
-  <img src="./places.jpg" width="200" height="400" title="PLACES SCREEN">
+  <img src="./placesscreen.jpg" width="200" height="350" title="PLACES SCREEN">
+   </br>
+   <text>PROFILE SCREEN </text>
+   
+  <img src="./profilescreen.jpg" width="200" height="350" title="PLACES SCREEN">
+   <text>MESSAGE SCREEN </text>
+  <img src="./messagescreen.jpg" width="200" height="350" title="PLACES SCREEN">
 </p>
   </div>
