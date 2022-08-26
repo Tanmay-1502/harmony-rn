@@ -14,74 +14,181 @@ const Placescreen = () => {
         // style={tw("flex-1 h-100 w-100")}
       >
       <Text style={tw("text-center m-5 text-3xl")}>Wheelchair Accessible Hotels and Restaurants</Text>
-      {/* <ScrollView nestedScrollEnabled={true} style={{ width: "100%" }} >
- <View>
-      <Text style={tw("text-center m-5 text-xl")} >
-        goa
-      </Text> */}
-      {/* <FlatList
-        data={[
-          {key: 'Devin'},
-          {key: 'Dan'},
-          {key: 'Dominic'},
-          {key: 'Jackson'},
-          {key: 'James'},
-          {key: 'Joel'},
-          {key: 'John'},
-          {key: 'Jillian'},
-          {key: 'Jimmy'},
-          {key: 'Julie'},
-        ]}
-        renderItem={({item}) => <Text style={styles.item}>{item.key}</Text>}
-      />
-      
-      
-      </View> */}
-      {/* </ScrollView> */}
+    
 <ScrollView>
-<Text style={tw("text-center m-5 text-xl")}>karnal</Text>
+<Text style={tw("text-center m-5 text-2xl")}>KARNAL</Text>
       {place.map((places) =>(
-        // <Text key={places.KARNAL}>{places.KARNAL}</Text>
-        <Text key={places.KARNAL}> list of Accessible places in karnal</Text>
+         <Text style={tw("text-xl")} key={places.id}>{places.KARNAL}</Text>
+        // <Text key={places.KARNAL}> list of Accessible places in karnal</Text>
         
       ))}
-      <Text style={tw("text-center m-5 text-xl")}>mumbai</Text>
+      <Text style={tw("text-center m-5 text-2xl")}>MUMBAI</Text>
       {place.map((places) =>(
-        // <Text key={places.MUMBAI}>{places.MUMBAI}</Text>
-         <Text key={places.MUMBAI}>list of Accessible places in mumbai</Text>
+        <Text style={tw("text-xl")} key={places.MUMBAI}>{places.MUMBAI}</Text>
+        
 
         
       ))}
+      <Text style={tw("text-center m-5 text-2xl")}>DELHI</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places['NEW DELHI']}>{places['NEW DELHI']}</Text>
+        
+
+        
+      ))}<Text style={tw("text-center m-5 text-2xl ")}>GURUGRAM</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.GURUGRAM}>{places.GURUGRAM}</Text>
+        
+
+        
+      ))}<Text style={tw("text-center m-5 text-2xl")}>HYDERABAD</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.HYDERABAD}>{places.HYDERABAD}</Text>
+        
+
+        
+      ))}<Text style={tw("text-center m-5 text-2xl")}>CHANDIGARH</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.CHANDIGARH}>{places.CHANDIGARH}</Text>
       
+
+        
+      ))}<Text style={tw("text-center m-5 text-2xl")}>CHENNAI</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.CHENNAI}>{places.CHENNAI}</Text>
+      
+
+        
+      ))}<Text style={tw("text-center m-5 text-2xl")}>PUNE</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.PUNE}>{places.PUNE}</Text>
+      
+
+        
+      ))}<Text style={tw("text-center m-5 text-2xl")}>AMRITSAR</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.AMRITSAR}>{places.AMRITSAR}</Text>
+      
+
+        
+      ))}<Text style={tw("text-center m-5 text-2xl")}>PATIALA</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.PATIALA}>{places.PATIALA}</Text>
+      
+
+        
+      ))}<Text style={tw("text-center m-5 text-2xl")}>PATNA</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.PATNA}>{places.PATNA}</Text>
+      
+
+        
+      ))}<Text style={tw("text-center m-5 text-2xl")}>NAGPUR</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.NAGPUR}>{places.NAGPUR}</Text>
+      
+
+        
+      ))}<Text style={tw("text-center m-5 text-2xl")}>INDORE</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.INDORE}>{places.INDORE}</Text>
+      
+
+        
+      ))}<Text style={tw("text-center m-5 text-2xl")}>GOA</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.GOA}>{places.GOA}</Text>
+      
+
+        
+      ))}<Text style={tw("text-center m-5 text-2xl")}>LUDHIANA</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.LUDHIANA}>{places.LUDHIANA}</Text>
+      
+
+        
+      ))}
+      <Text style={tw("text-center m-5 text-2xl")}>KOLKATA</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.KOLKATA}>{places.KOLKATA}</Text>
+      
+
+        
+      ))}
+      <Text style={tw("text-center m-5 text-2xl")}>LUCKNOW</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.LUCKNOW}>{places.LUCKNOW}</Text>
+      
+
+        
+      ))}
+      <Text style={tw("text-center m-5 text-2xl")}>COCHIN</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.COCHIN}>{places.COCHIN}</Text>
+      
+
+        
+      ))}
+      <Text style={tw("text-center m-5 text-2xl")}>BENGALURU</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.BENGALURU}>{places.BENGALURU}</Text>
+      
+
+        
+      ))}
+      <Text style={tw("text-center m-5 text-2xl")}>BHUBHANESHWAR</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.BHUBHANESHWAR}>{places.BHUBHANESHWAR}</Text>
+      
+
+        
+      ))}
+      <Text style={tw("text-center m-5 text-2xl")}>GUWAHATI</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.GUWAHATI}>{places.GUWAHATI}</Text>
+      
+
+        
+      ))}
+      <Text style={tw("text-center m-5 text-2xl")}>JAMSEDPUR</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.JAMSEDPUR}>{places.JAMSEDPUR}</Text>
+      
+
+        
+      ))}
+      <Text style={tw("text-center m-5 text-2xl")}>SHIMLA</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.SHIMLA}>{places.SHIMLA}</Text>
+      
+
+        
+      ))}
+      <Text style={tw("text-center m-5 text-2xl")}>SURAT</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.SURAT}>{places.SURAT}</Text>
+      
+
+        
+      ))}
+      <Text style={tw("text-center m-5 text-2xl")}>VADODRA</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.VADODRA}>{places.VADODRA}</Text>
+      
+
+        
+      ))}
+      <Text style={tw("text-center m-5 text-2xl")}>VISHAKHAPATNAM</Text>
+      {place.map((places) =>(
+        <Text style={tw("text-xl")} key={places.VISHAKHAPATNAM}>{places.VISHAKHAPATNAM}</Text>
+      
+
+        
+      ))}
 </ScrollView>
      
     
-      {/* <SectionList
-          sections={[
-            {title: 'Karnal', data: ['Gym Khana Club Karnal',
-            'Ebowla Club Karnal - Best Banquet Hall | Restaurant | Gaming Zone in Karnal',
-            'Kewal Dhaba',
-            'BHANDARI-S',
-            'The Frontier Mail',
-            'JBM restaurant',
-            'Hwealth Cafe',
-            'Foodberry',]},
-            {title: 'Delhi', data: ['Gym Khana Club Karnal',
-            'Ebowla Club Karnal - Best Banquet Hall | Restaurant | Gaming Zone in Karnal',
-            'Kewal Dhaba',
-            'BHANDARI-S',
-            'The Frontier Mail',
-            'JBM restaurant',
-            'Hwealth Cafe',
-            'Foodberry',]},
-            
-          ]}
-          
-          renderItem={({item}) => <Text style={styles.item}>{item}</Text>}
-          initialNumToRender={6} 
-          renderSectionHeader={({section}) => <Text style={styles.sectionHeader}>{section.title}</Text>}
-          keyExtractor={(item, index) => item+index}
-        /> */}
+      
 </ImageBackground>
     </View>
   )
@@ -110,17 +217,3 @@ const styles = StyleSheet.create({
     },
   })
   
-
-
-// '1. Karnal Haveli Restaurant'
-// '2. Frontier Mail'
-// '3. Neelkanth Star Dhaba'
-// '4. Jhilmil'
-// '5. CHD Daana Paani'
-// '6. Bikaner Sweet House'
-// '7. Karnal Havelli'
-// '8. The Vivaan'
-// '9. Themis Barbecue House, Karnal'
-
-
-
