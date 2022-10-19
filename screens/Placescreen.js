@@ -83,7 +83,11 @@ function renderHeader() {
       >
       <Text style={tw("text-center m-5 text-3xl")}>Wheelchair Accessible Hotels and Restaurants</Text>
     
+<<<<<<< HEAD
 <ScrollView StickyHeaderComponent={renderHeader}>
+=======
+<ScrollView>
+>>>>>>> d519210efdfd9c86744b5e170f2858b8007c4b71
 <Text style={tw("text-center m-5 text-2xl")}>KARNAL</Text>
       {place.map((places) =>(
          <Text style={tw("text-xl")} key={places.id}>{places.KARNAL}</Text>
@@ -285,7 +289,10 @@ const styles = StyleSheet.create({
     },
   })
   
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> d519210efdfd9c86744b5e170f2858b8007c4b71
