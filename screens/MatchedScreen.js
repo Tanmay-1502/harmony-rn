@@ -21,7 +21,7 @@ const MatchedScreen = () => {
         />
       </View>
       <Text style={tw("text-white text-center mt-5")}>
-        You and {userSwiped.displayName} have matched!
+        You and {userSwiped.displayName} are connected!
       </Text>
 
       <View style={tw("flex-row justify-evenly mt-5 ")}>

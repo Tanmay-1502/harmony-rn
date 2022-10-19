@@ -64,7 +64,7 @@ const LoginScreen = () => {
         >
           <Text style={tw("font-bold text-2xl text-center  ")}>
           
-Sign In to find your Soulmate
+Sign In to connect
           </Text>
         </TouchableOpacity>
       </ImageBackground>

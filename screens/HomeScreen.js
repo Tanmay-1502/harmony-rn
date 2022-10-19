@@ -324,7 +324,7 @@ const HomeScreen = () => {
             "items-center justify-center rounded-full w-20 h-20 bg-green-200"
           )}
         >
-          <AntDesign name="heart" size={30} color="green" />
+          <AntDesign name="check" size={30} color="green" />
         </TouchableOpacity>
       </View>
       </ImageBackground>
