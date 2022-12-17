@@ -11,13 +11,11 @@ const MatchedScreen = () => {
   const { loggedInProfile, userSwiped } = params;
 
   return (
-    <View style={[tw("h-full bg-red-500 pt-20"), { opacity: 0.89 }]}>
-      <View style={tw("justify-center px-10 pt-20")}>
+    <View style={[tw("h-full bg-black pt-20"), { opacity: 0.89 }]}>
+      <View style={tw("justify-center items-center px-10 pt-20")}>
         <Image
-          source={{
-            uri: "https://www.citypng.com/public/uploads/preview/-11595269534beh3mlqure.png",
-          }}
-          style={tw("h-20 w-full")}
+          source={require("../connect.jpg")}
+          style={tw("h-20 w-20")}
         />
       </View>
       <Text style={tw("text-white text-center mt-5")}>
