@@ -68,28 +68,28 @@ const ModalScreen = () => {
     <View style={tw("flex-1 items-center pt-1 mt-4 ")}>
       <ImageBackground
        
-        source={require("../imp.jpg")}
+        source={require("../impcopy.jpg")}
         resizeMode="cover"
         style={tw("flex-1  w-full")}
         // style={tw("flex-1 h-100 w-100")}
       >
       {/* <ImageBackground source={image} resizeMode="cover" style={styles.image}> */}
-      <TouchableOpacity onPress={updatee}   style={tw("h-20 w-full")}>
+      <TouchableOpacity  onPress={updatee}   style={tw("h-20 items-center w-full rounded")}>
       <Image
-        style={tw("h-20 w-full mt-3 rounded-full")}
+        style={tw("h-10 w-full  mt-5 ")}
         resizeMode="contain"
 
-        source={require("../logo.png")}
+        source={require("../newlogox.png")}
       />
       </TouchableOpacity>
      
-      <Text style={tw("text-xl text-center text-gray-500 mt-10 p-2 font-bold")}>
+      <Text style={tw("text-xl text-center text-gray-600 text-3xl mt-5 p-2 font-bold")}>
         Welcome {user.displayName} !
       </Text>
       {/* STEPS */}
       {/* <View style={tw("flex-row justify-between items-center ")}> */}
         <TouchableOpacity onPress={speak} style={tw("text-center text-red-400 text-xl p-4 font-bold")}>
-      <Text style={tw("text-center text-red-400 text-xl p-4 font-bold")}>
+      <Text style={tw("text-center text-black text-xl p-4 font-bold")}>
         Step 1: Upload profile pic 
       
       </Text>
@@ -103,8 +103,8 @@ const ModalScreen = () => {
         onChangeText={setImage}
       />
       {/* <View style={tw("flex-row justify-between items-center ")}> */}
-      <TouchableOpacity onPress={jobee} style={tw("text-center text-red-400 text-xl p-4 font-bold")}>
-      <Text style={tw("text-center text-red-400 p-4 text-xl font-bold")}>
+      <TouchableOpacity onPress={jobee} style={tw("text-center text-black text-xl p-4 font-bold")}>
+      <Text style={tw("text-center text-black p-4 text-xl font-bold")}>
         Step 2: Job  
       </Text>
       </TouchableOpacity>
@@ -117,8 +117,8 @@ const ModalScreen = () => {
         placeholder="Enter your Occupation"
       />
       {/* <View style={tw("flex-row justify-between items-center ")}> */}
-      <TouchableOpacity onPress={agee} style={tw("text-center text-red-400 text-xl p-4 font-bold")}>
-      <Text style={tw("text-center text-red-400 p-4 text-xl font-bold")}>
+      <TouchableOpacity onPress={agee} style={tw("text-center text-black text-xl p-4 font-bold")}>
+      <Text style={tw("text-center text-black p-4 text-xl font-bold")}>
         Step 3: Age 
         
       </Text>
@@ -128,7 +128,7 @@ const ModalScreen = () => {
       <TextInput
         value={age}
         onChangeText={setAge}
-        style={tw("text-center text-xl pb-2 ")}
+        style={tw("text-center text-black text-xl pb-2 ")}
         placeholder="Enter your Age"
         //validation
         maxLength={2}
@@ -136,7 +136,7 @@ const ModalScreen = () => {
       />
       {/* <View style={tw("flex-row justify-between items-center ")}> */}
       <TouchableOpacity style={tw("text-center text-red-400 p-4 text-xl font-bold")} onPress={dname}>
-      <Text style={tw("text-center text-red-400 p-4 text-xl font-bold")}>
+      <Text style={tw("text-center text-black p-4 text-xl font-bold")}>
         Step 4: Display Name 
       </Text>
       </TouchableOpacity>
@@ -144,7 +144,7 @@ const ModalScreen = () => {
       <TextInput
         value={username}
         onChangeText={setUsername}
-        style={tw("text-center text-xl pb-2 ")}
+        style={tw("text-center  text-black text-xl pb-2 ")}
         placeholder="Enter Name"
       />
 
@@ -166,6 +166,4 @@ const ModalScreen = () => {
 };
 
 export default ModalScreen;
-
-
 
