@@ -17,7 +17,7 @@ import {
   TouchableWithoutFeedback,
   Keyboard,
   FlatList,
-  ImageBackground
+  ImageBackground, TouchableOpacity
 } from "react-native";
 import tw from "tailwind-rn";
 import Header from "../components/Header";
@@ -27,8 +27,12 @@ import { db } from "../firebase";
 import useAuth from "../hooks/useAuth";
 import getMatchedUserInfo from "../lib/getMatchedUserInfo";
 import * as Speech from 'expo-speech';
-
+import { FontAwesome } from '@expo/vector-icons';
 const MessageScreen = () => {
+  const stop = () => {
+    
+    Speech.stop();
+    };
   const { user } = useAuth();
   const { params } = useRoute();
   const [input, setInput] = useState("");
@@ -82,10 +86,20 @@ const MessageScreen = () => {
         style={tw("flex-1  w-full")}
         // style={tw("flex-1 h-100 w-100")}
       >
+       
       <Header
         title={getMatchedUserInfo(matchDetails?.users, user.uid).displayName}
         callEnabled
       />
+      {/* <TouchableOpacity
+           style={tw("rounded-full  left-20   ")}
+        
+          onPress={stop}>
+        
+         
+          <FontAwesome name="square" size={24} color="black" />
+        </TouchableOpacity> */}
+        
 
       <KeyboardAvoidingView
         behavior={Platform.OS === "ios" ? "padding" : "height"}
@@ -109,7 +123,7 @@ const MessageScreen = () => {
           />
         
         </TouchableWithoutFeedback>
-       <Text> test</Text>
+       {/* <Text> test</Text> */}
         <View
           style={tw(
             "flex-row justify-between items-center border-t border-gray-200 px-5 py-2 bg-white"
